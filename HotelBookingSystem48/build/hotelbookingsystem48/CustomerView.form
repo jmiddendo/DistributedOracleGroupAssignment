@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="RecordUpdate" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="BDelete" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="lblMembTypeSearch" min="-2" pref="90" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="ComboCustomer" min="-2" pref="119" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="FindCombo" max="32767" attributes="0"/>
+                                  <Component id="rtnButton" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="lblSearchID" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblCLName" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblCFName" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lblCusNumber" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblCusTitle" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblCusCountry" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCusDOB" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCusCity" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="InsertCData" min="-2" pref="116" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="DeleteCustomer" min="-2" pref="116" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="txtCusCity" alignment="0" pref="227" max="32767" attributes="0"/>
+                                      <Component id="txtCCountry" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtCDOB" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtCLName" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtCFName" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtCusTitle" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtCusNumber" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                      <Component id="ButtonCreateCommit" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="viewCustomer" min="-2" pref="125" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                                      <Component id="lblCusPost" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="lblCusStreet" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="txtCPost" max="32767" attributes="0"/>
+                                                  <Component id="txtCStreet" min="-2" pref="132" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="lblMembCredit" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="lblMembTier" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="lblCusPhoneNumber" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="lblCusEmail" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="txtCusEmail" min="-2" pref="134" max="-2" attributes="0"/>
+                                                  <Component id="txtCusPhone" min="-2" pref="134" max="-2" attributes="0"/>
+                                                  <Component id="txtCMembCredit" min="-2" pref="132" max="-2" attributes="0"/>
+                                                  <Component id="txtMTier" min="-2" pref="132" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="UpdateData" min="-2" pref="117" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtActionID" min="-2" pref="208" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="BSearch" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="342" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="UpdateData" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DeleteCustomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="viewCustomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtnButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="InsertCData" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FindCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMembTypeSearch" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ComboCustomer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblSearchID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtActionID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BSearch" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCusNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCusNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCusTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCusTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCFName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCFName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCLName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCLName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCusDOB" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCDOB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCusCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCusStreet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCStreet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCusPost" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCPost" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtMTier" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMembTier" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtCMembCredit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMembCredit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCusPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCusPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="28" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtCusEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCusEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCusCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCusCity" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="RecordUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ButtonCreateCommit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="BDelete" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jScrollPane1" min="-2" pref="173" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="InsertCData">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Insert"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InsertCDataActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="UpdateData">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UpdateDataActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="DeleteCustomer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DeleteCustomerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="viewCustomer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View Customer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewCustomerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="rtnButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Return"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rtnButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="FindCombo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Find"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FindComboActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMembTypeSearch">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Membership type"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ComboCustomer">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ComboCustomerActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer title"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCFName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer first name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCLName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer last name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusStreet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer Street"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusDOB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer DOB"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusCity">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer city"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusCountry">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer country"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusPost">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer postcode"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMembTier">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Membership tier"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMembCredit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer membership credits"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusPhoneNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer phone number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCusEmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Customer email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCusNumber">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCusTitle">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCFName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCLName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCDOB">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCCountry">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCusCity">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCStreet">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCPost">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCPostActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMTier">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCMembCredit">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCMembCreditActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCusPhone">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCusEmail">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCusEmailActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="cusTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="13" rowCount="7">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                <Column editable="true" title="Title 5" type="java.lang.Object"/>
+                <Column editable="true" title="Title 6" type="java.lang.Object"/>
+                <Column editable="true" title="Title 7" type="java.lang.Object"/>
+                <Column editable="true" title="Title 8" type="java.lang.Object"/>
+                <Column editable="true" title="Title 9" type="java.lang.Object"/>
+                <Column editable="true" title="Title 10" type="java.lang.Object"/>
+                <Column editable="true" title="Title 11" type="java.lang.Object"/>
+                <Column editable="true" title="Title 12" type="java.lang.Object"/>
+                <Column editable="true" title="Title 13" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblSearchID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtActionID">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtActionIDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BSearch">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BSearchActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="RecordUpdate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RecordUpdateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ButtonCreateCommit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonCreateCommitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BDelete">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BDeleteActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
